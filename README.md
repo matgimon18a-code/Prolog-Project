@@ -85,7 +85,7 @@ El sistema permite consultar rutas directas, rutas con escalas, rutas
 más rápidas o más baratas, y generar sugerencias automáticas. Además,
 incluye un **menú principal** con todas las consultas disponibles.
 
-### ⚙️ Estructura del Código
+###  Estructura del Código
 
 1.  **Base de Datos de Rutas:** Define hechos `ruta/7` con información
     completa.\
