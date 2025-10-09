@@ -135,6 +135,41 @@ comportamientos reales de planificación de viajes.
 
 ------------------------------------------------------------------------
 
+## 3. Problemas y Soluciones Comunes en Prolog
+
+Al trabajar con **Prolog** y realizar consultas sobre bases de datos, pueden surgir varios problemas típicos relacionados con las búsquedas lógicas. A continuación se describen tres de los más comunes junto con sus soluciones:
+
+### 1. No se encuentran resultados esperados
+**Problema:**  
+Al realizar una consulta, Prolog devuelve `false` aunque los datos estén correctamente ingresados. Esto suele ocurrir si las **constantes en la consulta no coinciden exactamente** con los hechos, por ejemplo, diferencias en mayúsculas/minúsculas o uso de comillas.
+
+**Solución:**  
+- Revisar que los nombres y valores en la consulta coincidan exactamente con los de la base de datos.  
+- Usar siempre el mismo formato de datos: si se usan átomos con comillas (`'AMD'`), la consulta también debe incluirlas.
+
+---
+
+### 2. Variables sin instanciar o errores de singleton
+**Problema:**  
+Aparecen advertencias de **singleton variables** (variables que se usan solo una vez) o resultados incompletos porque Prolog no puede asociar correctamente una variable a un valor.
+
+**Solución:**  
+- Asegurarse de que todas las variables en la consulta tengan un propósito y sean usadas en al menos un predicado.  
+- En búsquedas complejas, verificar que las condiciones y filtros incluyan todas las variables necesarias para relacionar los hechos correctamente.
+
+---
+
+### 3. Consultas recursivas que no terminan o tardan demasiado
+**Problema:**  
+Al buscar rutas con varias escalas o al usar recursión, Prolog puede entrar en un **bucle infinito** si no se definen correctamente las condiciones de terminación.
+
+**Solución:**  
+- Implementar límites claros en la recursión, como un máximo de escalas permitidas.  
+- Verificar las condiciones de parada para cada predicado recursivo, asegurando que se pueda llegar a un caso base.  
+- Usar predicados auxiliares para llevar control de rutas ya visitadas y evitar ciclos.
+
+------------------------------------------------------------------------
+
 ##  Información General del Proyecto
 
 **Lenguaje:** Prolog\  
