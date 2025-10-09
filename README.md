@@ -1,13 +1,13 @@
-# 🧠 Proyecto Prolog -- Bases de Datos y Consultas Lógicas
+#  Proyecto Prolog -- Bases de Datos y Consultas Lógicas
 
 Autores: **Matias Gil Montoya** y **Juliana Sepulveda**\
 Fecha: 09/10/2025
 
 ------------------------------------------------------------------------
 
-## 📘 1. Base de Datos de Plataformas
+##  1. Base de Datos de Plataformas
 
-### 🧩 Descripción General
+###  Descripción General
 
 Este programa en **Prolog** gestiona una base de datos de diferentes
 **plataformas tecnológicas** (computadores, laptops, tablets, etc.) con
@@ -34,7 +34,7 @@ se puede filtrar, comparar y presentar información de forma declarativa.
 4.  **Programa Principal (`main`):** Ejecuta automáticamente varias
     consultas consecutivas mostrando resultados en consola.
 
-### ▶️ Ejemplo de Ejecución del Programa Principal
+###  Ejemplo de Ejecución del Programa Principal
 
 **Entrada:**
 
@@ -60,7 +60,7 @@ se puede filtrar, comparar y presentar información de forma declarativa.
     MSI - A018
     ...
 
-### 💡 Conclusión
+###  Conclusión
 
 El código demuestra cómo Prolog puede usarse eficazmente para: -
 Representar conocimiento estructurado.\
@@ -72,9 +72,9 @@ de soporte donde se requiera **filtrado lógico de datos estructurados**.
 
 ------------------------------------------------------------------------
 
-## 🧭 2. Sistema de Planificación de Rutas
+##  2. Sistema de Planificación de Rutas
 
-### 🧩 Descripción General
+###  Descripción General
 
 Este segundo programa en **Prolog** implementa un sistema para la
 **planificación de viajes** entre ciudades colombianas. La base de datos
@@ -99,7 +99,7 @@ incluye un **menú principal** con todas las consultas disponibles.
 6.  **Menú Principal (`menu/0`):** Interfaz textual con todas las
     opciones del sistema.
 
-### ▶️ Ejemplo de Ejecución
+###  Ejemplo de Ejecución
 
 **Entrada:**
 
@@ -126,7 +126,7 @@ Otro ejemplo:
     Ruta mas barata: [bogota, medellin]
     Costo: $35 - Tiempo: 9h
 
-### 💡 Conclusión
+###  Conclusión
 
 El sistema de rutas demuestra el potencial de Prolog para manejar
 **búsquedas recursivas** y **evaluaciones condicionales**.\
@@ -135,7 +135,7 @@ comportamientos reales de planificación de viajes.
 
 ------------------------------------------------------------------------
 
-## 📄 Información General del Proyecto
+##  Información General del Proyecto
 
 **Lenguaje:** Prolog\  
 
