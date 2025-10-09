@@ -23,7 +23,7 @@ El **objetivo** del código es demostrar el uso de consultas lógicas en
 Prolog aplicadas a un conjunto de hechos estructurados, mostrando cómo
 se puede filtrar, comparar y presentar información de forma declarativa.
 
-### ⚙️ Estructura del Código
+###  Estructura del Código
 
 1.  **Base de Datos de Plataformas:** Contiene los hechos
     `plataforma/10` con los datos de cada equipo.\
